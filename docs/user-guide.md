@@ -20,7 +20,7 @@ import Web3 from 'web3';
 import networkDetective from 'web3-network-detective';
 
 // setup example web3 instance
-const web3 = new Web3(new Web3.providers.HttpProvider('https://morden.infura.io/'));
+const web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/'));
 
 // network detective usage
 networkDetective(web3.currentProvider, function(detectiveError, detectiveResult){

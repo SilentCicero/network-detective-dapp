@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/SilentCicero/web3-network-detective/badge.svg?branch=master)](https://coveralls.io/github/SilentCicero/web3-network-detective?branch=master)
 [![NPM Downloads](https://img.shields.io/npm/dm/web3-network-detective.svg)](https://www.npmjs.org/package/web3-network-detective)
 
-A simple module to determine if your web3 provider is on the Ethereum mainnet, (morden) testnet or a custom network.
+A simple module to determine if your web3 provider is on the Ethereum mainnet, (ropsten) testnet or a custom network.
 
 ## Install
 ```
@@ -18,7 +18,7 @@ import Web3 from 'web3';
 import networkDetective from 'web3-network-detective';
 
 // setup example web3 instance
-const web3 = new Web3(new Web3.providers.HttpProvider('https://morden.infura.io/'));
+const web3 = new Web3(new Web3.providers.HttpProvider('https://ropsten.infura.io/'));
 
 // network detective usage
 networkDetective(web3.currentProvider, function(detectiveError, detectiveResult){

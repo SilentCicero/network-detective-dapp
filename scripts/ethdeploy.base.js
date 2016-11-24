@@ -43,7 +43,7 @@ module.exports = {
     'defaultGas': 1900000,
     'environments': {
       'testnet': {
-        'provider': zeroClientProvider('https://morden.infura.io', 8545),
+        'provider': zeroClientProvider('https://ropsten.infura.io'),
       },
       'mainnet': {
         'provider': zeroClientProvider('https://mainnet.infura.io', 8545),

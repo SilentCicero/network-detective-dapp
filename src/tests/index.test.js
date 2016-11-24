@@ -3,7 +3,7 @@ const networkDetective = require('../index');
 const Web3 = require('web3');
 
 // setup testnet and mainnet provider
-const testnetProvider = new Web3.providers.HttpProvider('https://morden.infura.io/');
+const testnetProvider = new Web3.providers.HttpProvider('https://ropsten.infura.io/');
 const mainnetProvider = new Web3.providers.HttpProvider('https://mainnet.infura.io/');
 
 describe('NetworkDetective', () => {
